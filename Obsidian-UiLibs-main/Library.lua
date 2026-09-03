@@ -5794,6 +5794,7 @@ function Library:CreateWindow(WindowInfo)
             ImageColor3 = function()
                 return Library:GetBetterColor(Library.Scheme.AccentColor, -1)
             end,
+            Visible = false, -- 추가
             Parent = MainFrame,
         })
         DividerLine = New("Frame", {
