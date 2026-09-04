@@ -5938,7 +5938,7 @@ function Library:CreateWindow(WindowInfo)
             PaddingBottom = UDim.new(0, 8),
             PaddingLeft = UDim.new(0, 6),
             PaddingRight = UDim.new(0, 8),
-            PaddingTop = UDim.new(0, 102),
+            PaddingTop = UDim.new(0, 8),
             Parent = CurrentTabInfo,
         })
         CurrentTabLabel = New("TextLabel", {
